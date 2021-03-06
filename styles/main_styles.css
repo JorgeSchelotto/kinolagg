@@ -791,7 +791,12 @@ section
 	font-family: 'bestari';
 	margin-top: 6px;
 }
+#introTitle
+{
+	font-size: 2rem;
+}
 .intro_title h2
+
 {
 	font-family: 'bestari';
 	font-size: 48px;
