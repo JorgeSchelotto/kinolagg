@@ -7,6 +7,16 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="description" content="The Venue template project">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- lightbox -->
+    <link rel="stylesheet" href="plugins/lightbox/css/glightbox.css">
+
+	<!-- Animate -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  	/>
+
+
 	<link rel="stylesheet" type="text/css" href="styles/bootstrap-4.1.2/bootstrap.min.css">
 	<link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 	<link rel="stylesheet" type="text/css" href="plugins/OwlCarousel2-2.2.1/owl.carousel.css">
@@ -18,12 +28,12 @@
 	<link rel="stylesheet" type="text/css" href="styles/main_styles.css">
 	<link rel="stylesheet" type="text/css" href="styles/responsive.css">
 	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<link rel="manifest" href="/site.webmanifest">
-<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
-<meta name="msapplication-TileColor" content="#da532c">
-<meta name="theme-color" content="#ffffff">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
+	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
 </head>
 
 <body>
@@ -47,6 +57,7 @@
 								<ul class="d-flex flex-row align-items-center justify-content-start">
 									<li><a href="#inicio">nosotros</a></li>
 									<li><a href="#videos">videos</a></li>
+									<li><a href="#web">webpages</a></li>
 									<li><a href="contact.html">contacto</a></li>
 								</ul>
 							</nav>
@@ -87,6 +98,7 @@
 				<ul>
 					<li><a href="#inicio">nosotros</a></li>
 					<li><a href="#videos">videos</a></li>
+					<li><a href="#web">webpages</a></li>
 					<li><a href="contact.html">contacto</a></li>
 				</ul>
 			</div>
@@ -102,7 +114,7 @@
 				<div class="container">
 					<div class="row">
 						<div class="col">
-							<div class="home_content text-center">
+							<div class="home_content text-center animate__animated animate__fadeInDown">
 								<div
 									class="home_title d-flex flex-row align-items-center justify-content-center text-center">
 									<img src="/images/logo.png" id="logo_home" class="img-fluid" alt="logo" alt="">
@@ -132,7 +144,7 @@
 								<h2 id="introTitle">Sobre nosotros</h2>
 							</div>
 							<div class="intro_text">
-								<p>Somos una productora independiente que contamos con profesionales especializados y 
+								<p>Somos una productora independiente que contamos con profesionales especializados y
 									podemos hacer realidad lo que vos estas necesitando.
 									Hacemos Cine, Video, Tv, Animaciones, Apps, Webpages y más.</p>
 							</div>
@@ -154,7 +166,12 @@
 
 		<!-- Video -->
 
-		<div class="video_section" id="videos">
+		<div id="div_videos">
+			<h1 class="titulosPrincipales" id="videos">VIDEOS</h1>
+
+
+		<div class="video_section" >
+			
 			<div class="background_image" style="background-image:url(images/video.jpg)"></div>
 			<div class="video_section_content d-flex flex-column align-items-center justify-content-center text-center">
 				<div class="video_section_title">Food for the soul</div>
@@ -194,9 +211,34 @@
 							class="fa fa-play" aria-hidden="true"></i></a></div>
 			</div>
 		</div>
+	</div>
 		<br>
 
 
+		<!-- WEB  -->
+
+		<h1 class="titulosPrincipales2" id="web">WEB</h1>
+
+		<section class="grid-gallery" >
+			<article>
+				<a class="grid-gallery__item" href="https://jorgeschelotto.github.io/proyectoArtistas/">
+					<img class="grid-gallery__image" alt="" src="images/guda.jpeg">
+				</a>
+			</article>
+
+			<article>
+				<a class="grid-gallery__item" href="https://jorgeschelotto.github.io/coderTHP/">
+					<img class="grid-gallery__image" alt="" src="images/thp.jpeg">
+				</a>
+			</article>
+	
+		</section>
+
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
 		<!-- Reservations -->
 
 		<div class="reservations text-center">
@@ -253,10 +295,10 @@
 					<!-- Footer About -->
 					<div class="col-lg-6 footer_col">
 						<div class="footer_about">
-							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec malesuada lorem maximus
-								mauris scelerisque, at rutrum nulla dictum. Ut ac ligula sapien. Suspendisse cursus
-								faucibus finibus. Ut non justo eleifend, facilisis nibh ut, interdum odio.</p>
-						</div>
+							<p></p>
+						
+							</div>
+
 					</div>
 
 					<!-- Footer Contact -->
@@ -265,7 +307,7 @@
 							<ul>
 								<li class="d-flex flex-row align-items-start justify-content-start">
 									<div>
-										<div class="footer_contact_title">Contacto</div>
+										<div class="footer_contact_title">Cel</div>
 									</div>
 									<div class="footer_contact_text">+54 11 5002 9696</div>
 								</li>
@@ -276,12 +318,28 @@
 									<div class="footer_contact_text">kinolagg@gmail.com</div>
 								</li>
 							</ul>
+							
+						</div>
+						<div class="contact_social">
+							<ul class="d-flex flex-row align-items-start justify-content-around">
+								<li><a href="https://www.instagram.com/kinolagg/">
+									<i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+								<li><a href="https://www.facebook.com/kino.lagg/">
+									<i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+								<li><a href="https://www.youtube.com/channel/UCgAXn2kW66c7zYuRvSsORZQ">
+									<i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+								<li><a href="#">
+									<i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+							</ul>
 						</div>
 					</div>
 				</div>
 			</div>
 		</footer>
 	</div>
+
+
+
 
 	<script src="js/jquery-3.2.1.min.js"></script>
 	<script src="styles/bootstrap-4.1.2/popper.js"></script>
@@ -298,6 +356,10 @@
 	<script src="plugins/jquery-datepicker/jquery-ui.js"></script>
 	<script src="plugins/jquery-timepicker/jquery.timepicker.js"></script>
 	<script src="js/custom.js"></script>
+
+		<!-- Scripts javascript -->
+	<!-- <script src="../scripts/scripts.js"></script> -->
+	<script src="plugins/lightbox/js/glightbox.js"></script>
 </body>
 
 </html>

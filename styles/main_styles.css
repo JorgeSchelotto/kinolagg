@@ -1272,3 +1272,264 @@ section
 {
 	white-space: nowrap;
 }
+
+
+/* Estilo de la galeria */
+
+.grid-gallery {
+  display: grid;
+  grid-gap: 1rem;
+  grid-auto-flow: row dense;
+  grid-template-columns: 2fr auto;
+  margin: 0;
+
+}
+
+@media all and (min-width: 320px) {
+  .grid-gallery {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .grid-gallery:nth-child(3n+3) {
+    margin: 0;
+  }
+
+  .imagenDisco {
+    width: 90vw;
+    height: auto;
+    margin: auto;
+  }
+
+  .arrow {
+    position: absolute;
+    top: 130%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+}
+
+@media all and (min-width: 768px) {
+  .grid-gallery {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .grid-gallery:nth-child(3n+3) {
+    margin: 0;
+  }
+
+
+}
+
+
+
+@media all and (min-width: 1360px) {
+  .grid-gallery {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .grid-gallery:nth-child(3n+3) {
+    margin: 0;
+  }
+}
+
+@media all and (min-width: 1920px) {
+
+  .grid-gallery {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .grid-gallery:nth-child(3n+3) {
+    margin: 0;
+  }
+}
+
+
+
+.grid-gallery__image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@keyframes img_gallery {
+  0% {
+    transform: scale(0);
+    opacity: 0;
+  }
+
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.grid-gallery__image {
+  animation-duration: .5s;
+  animation-name: img_gallery;
+  animation-timing-function: ease-in-out;
+}
+
+.grid-gallery__image:hover {
+  transform: scale(1.05);
+}
+
+
+/* Titulos de las paginas */
+
+.titulosPrincipales {
+	font-family: 'bestari';
+	font-weight: 500;
+	font-size: 3rem;
+	text-align: center;
+	padding: 5rem 0 5rem 0;
+	color: rgb(177, 177, 177);
+  
+}
+
+.titulosPrincipales2 {
+	font-family: 'bestari';
+	font-weight: 500;
+	font-size: 3rem;
+	text-align: center;
+	padding: 5rem 0 5rem 0;
+  
+}
+
+ #div_videos{
+	background: rgb(0, 0, 0);
+	padding: 0 0 5em 0;
+	
+ }
+
+/*********************************
+6. Contact
+*********************************/
+
+.contact
+{
+	width: 100%;
+	background: #FFFFFF;
+	padding-top: 116px;
+	padding-bottom: 103px;
+}
+.contact_title
+{
+	font-size: 36px;
+	color: #232323;
+	line-height: 0.75;
+}
+.contact_text
+{
+	margin-top: 40px;
+}
+.contact_logo_container
+{
+	margin-top: 59px;
+}
+.contact_logo_title
+{
+	font-size: 63px;
+	line-height: 0.75;
+	color: #232323;
+}
+.contact_logo_subtitle
+{
+	font-size: 21px;
+	text-transform: uppercase;
+	color: #232323;
+	letter-spacing: 0.680em;
+	line-height: 0.75;
+	margin-top: 19px;
+}
+.contact_list_container
+{
+	padding-top: 39px;
+	padding-bottom: 41px;
+	margin-top: 38px;
+	border: solid 2px #c49a8f;
+}
+.contact_list_content
+{
+
+}
+.contact_list
+{
+	max-width: 220px;
+}
+.contact_list li:not(:last-child)
+{
+	margin-bottom: 24px;
+}
+.contact_list li > div
+{
+	float: left;
+}
+.contact_list li > div:first-child div
+{
+	width: 87px;
+	font-size: 20px;
+	color: #232323;
+	line-height: 0.75;
+}
+.contact_list li > div:last-child
+{
+	font-size: 15px;
+	color: #838383;
+	line-height: 1.6;
+	margin-top: -3px;
+}
+.contact_social
+{
+	margin-top: 35px;
+}
+.contact_social ul li:not(:last-child)
+{
+	margin-right: 21px;
+}
+.contact_social ul li a i
+{
+	padding: 5px;
+	font-size: 14px;
+	color: #838383;
+	-webkit-transition: all 200ms ease;
+	-moz-transition: all 200ms ease;
+	-ms-transition: all 200ms ease;
+	-o-transition: all 200ms ease;
+	transition: all 200ms ease;
+}
+.contact_social ul li a i:hover
+{
+	color: #c4ab9f;
+}
+.google_map_row
+{
+	margin-top: 82px;
+}
+.contact_map
+{
+	width: 100%;
+}
+.map
+{
+	width: 100%;
+}
+.google_map
+{
+	width: 100%;
+	height: 434px;
+}
+.map_container
+{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+#map
+{
+	width: 100%;
+	height: calc(100% + 30px);
+}
+
+
+ 
