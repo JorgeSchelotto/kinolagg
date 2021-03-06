@@ -1,4 +1,25 @@
 @charset "utf-8";
+@font-face {
+    font-family: 'titan';
+    src: url("/font/Titan.otf");
+}
+
+@font-face {
+    font-family: 'bestari';
+    src: url("/font/Bestari\ Regular\ Trial.otf");
+}
+
+
+#logo_Name
+{
+	font-family: 'titan';
+}
+
+#logo_Phrase
+{
+	font-family: 'bestari';
+}
+
 /* CSS Document */
 
 /******************************
@@ -339,6 +360,25 @@ section
 }
 .logo
 {
+
+	-webkit-transform: translateY(3px);
+	-moz-transform: translateY(3px);
+	-ms-transform: translateY(3px);
+	-o-transform: translateY(3px);
+	transform: translateY(3px);
+}
+#logo1
+{
+	font-family: 'titan';
+}
+
+#logo2
+{
+	font-family: 'bestari';
+}
+
+.logo
+{
 	-webkit-transform: translateY(3px);
 	-moz-transform: translateY(3px);
 	-ms-transform: translateY(3px);
@@ -366,7 +406,7 @@ section
 }
 .main_nav
 {
-	margin-left: 170px;
+	margin-left: auto;
 }
 .main_nav ul li:not(:last-child)
 {
@@ -374,10 +414,14 @@ section
 }
 .main_nav ul li a
 {
-	font-size: 16px;
+	font-size: 1rem;
 	font-weight: 700;
 	color: #FFFFFF;
 	text-transform: uppercase;
+}
+.main_nav ul li a:hover
+{
+	color: #b49383;
 }
 
 .whatsapp
@@ -585,7 +629,7 @@ section
 .home_container
 {
 	position: absolute;
-	top: 43%;
+	top: 30%;
 	left: 0;
 	width: 100%;
 }
@@ -597,7 +641,7 @@ section
 }
 .home_title
 {
-	margin-top: 10px;
+	margin-top: 0;
 }
 .home_title h1
 {
@@ -607,11 +651,19 @@ section
 .home_text
 {
 	max-width: 875px;
-	margin-top: 14px;
+	margin-top: auto;
 }
 .home_text p
 {
+	font-size: 1.5rem;
 	color: #FFFFFF;
+}
+
+
+.home_text2 p
+{
+	font-size: 1rem;
+	color: #c4c4c4;
 }
 .scroll_icon
 {
