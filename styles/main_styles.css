@@ -366,7 +366,9 @@ section
 	-ms-transform: translateY(3px);
 	-o-transform: translateY(3px);
 	transform: translateY(3px);
+	
 }
+
 #logo1
 {
 	font-family: 'titan';
@@ -377,6 +379,11 @@ section
 	font-family: 'bestari';
 }
 
+#logo_home
+{
+	max-width: 15%;
+	margin-left: 0.1rem;
+}
 .logo
 {
 	-webkit-transform: translateY(3px);
@@ -391,13 +398,13 @@ section
 }
 .logo a > div:first-child
 {
-	font-size: 36px;
+	font-size: 1.5rem;
 	line-height: 0.75;
 	color: #FFFFFF;
 }
 .logo a > div:last-child
 {
-	font-size: 12px;
+	font-size: .5rem;
 	text-transform: uppercase;
 	color: #FFFFFF;
 	letter-spacing: 0.680em;
@@ -632,6 +639,11 @@ section
 	top: 30%;
 	left: 0;
 	width: 100%;
+	
+}
+.home_content
+{
+	background: rgba(0, 0, 0, 0.5); 
 }
 .home_subtitle
 {
@@ -776,10 +788,12 @@ section
 }
 .intro_title
 {
+	font-family: 'bestari';
 	margin-top: 6px;
 }
 .intro_title h2
 {
+	font-family: 'bestari';
 	font-size: 48px;
 }
 .intro_text
@@ -1204,13 +1218,13 @@ section
 }
 .footer_logo_title
 {
-	font-size: 57px;
+	font-size: 1.8rem;
 	line-height: 0.75;
 	color: #FFFFFF;
 }
 .footer_logo_subtitle
 {
-	font-size: 19px;
+	font-size: .8rem;
 	text-transform: uppercase;
 	color: #FFFFFF;
 	letter-spacing: 0.680em;
