@@ -1046,12 +1046,13 @@ section {
   font-weight: normal;
 }
 .res_title {
-	font-family: 'bestari';
-  font-size: 2rem;
+font-family: 'bestari';
+  font-size: 1.3rem;
   color: #ffffff;
   font-weight: 400;
   line-height: 0.75;
   margin-top: 17px;
+  font
 }
 .res_form_container {
   margin-top: 72px;
