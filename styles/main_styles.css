@@ -785,7 +785,7 @@ section
 	padding-bottom: 59px;
 	padding-left: 70px;
 	padding-right: 50px;
-	color: honeydew;
+	color: white;
 }
 .intro_subtitle
 {
@@ -805,12 +805,12 @@ section
 {
 	font-family: 'bestari';
 	font-size: 48px;
-	color: honeydew;
+	color: white;
 }
 .intro_text
 {
 	margin-top: 32px;
-	color: honeydew;
+	color: white;
 }
 
 #intro_text

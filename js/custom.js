@@ -145,4 +145,23 @@ $(document).ready(function()
 		});
 	}
 
+	var buttonAgendar = document.getElementById('form_agendar')
+
+	buttonAgendar.addEventListener('click', (e) =>{
+		e.preventDefault();
+
+		let date = document.getElementById('datepicker').value;
+
+		let time = document.getElementById('timepicker').value;
+
+		console.log("Dia: " + date + "hora: "+time)
+		window.open(
+			`https://api.whatsapp.com/send?phone=541150029696&text=Hola,%20quiero%20saber%20si%20
+			podemos%20reunirnos%20el%20día%20${date}%20a%20las%20${time}.%20Muchas%20gracias!.
+			%20Enviado%20desde%20kinolagg.com.ar`,
+			"Envianos tu mensaje por whatsapp",
+			"resizable,scrollbars,status"
+		  );
+	})
+
 });
