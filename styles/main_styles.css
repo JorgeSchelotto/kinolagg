@@ -772,16 +772,17 @@ section
 	-ms-transform: translateY(-50%);
 	-o-transform: translateY(-50%);
 	transform: translateY(-50%);
-	right: -165px;
+	right: -100px;
 	width: 679px;
-	background: #FFFFFF;
-	border: solid 2px #b49383;
+	background: #232323;
+	border: solid 2px #232323;
 	box-shadow: 0px 45px 70px rgba(0,0,0,0.24);
 	z-index: 1;
 	padding-top: 55px;
 	padding-bottom: 59px;
 	padding-left: 70px;
 	padding-right: 50px;
+	color: honeydew;
 }
 .intro_subtitle
 {
@@ -801,10 +802,20 @@ section
 {
 	font-family: 'bestari';
 	font-size: 48px;
+	color: honeydew;
 }
 .intro_text
 {
 	margin-top: 32px;
+	color: honeydew;
+}
+
+#intro_text
+{
+	color: rgb(184, 184, 184);
+	font-size: 'sans-serif';
+	font-size: 1.5rem;	
+	font-weight: lighter;
 }
 
 /*********************************
