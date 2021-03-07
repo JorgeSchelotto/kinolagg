@@ -114,12 +114,33 @@ $(document).ready(function()
 
 	function initDatePicker()
 	{
+
+		$.datepicker.regional['es'] = {
+			closeText: 'Cerrar',
+			prevText: '< Ant',
+			nextText: 'Sig >',
+			currentText: 'Hoy',
+			monthNames: ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'],
+			monthNamesShort: ['Ene','Feb','Mar','Abr', 'May','Jun','Jul','Ago','Sep', 'Oct','Nov','Dic'],
+			dayNames: ['Domingo', 'Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado'],
+			dayNamesShort: ['Dom','Lun','Mar','Mié','Juv','Vie','Sáb'],
+			dayNamesMin: ['Do','Lu','Ma','Mi','Ju','Vi','Sá'],
+			weekHeader: 'Sm',
+			dateFormat: 'dd/mm/yy',
+			firstDay: 1,
+			isRTL: false,
+			showMonthAfterYear: false,
+			yearSuffix: ''
+			};
+			$.datepicker.setDefaults($.datepicker.regional['es']);
+
+			
 		var dp = $('#datepicker');
 		var date = new Date();
 		var dateM = date.getMonth() + 1;
 		var dateD = date.getDate();
 		var dateY = date.getFullYear();
-		var dateFinal = dateM + '/' + dateD + '/' + dateY;
+		var dateFinal = dateD + '/' + dateM + '/' + dateY;
 		dp.val(dateFinal);
 		dp.datepicker();
 	}
@@ -135,15 +156,17 @@ $(document).ready(function()
 		$('.timepicker').timepicker(
 		{
 		    interval: 60,
-		    minTime: '10',
-		    maxTime: '6:00pm',
-		    defaultTime: '11',
+		    minTime: '9:00am',
+		    maxTime: '7:00pm',
+		    defaultTime: '9',
 		    startTime: '10:00',
 		    dynamic:  true,
 		    dropdown: true,
 		    scrollbar: true
 		});
 	}
+
+
 
 	var buttonAgendar = document.getElementById('form_agendar')
 
