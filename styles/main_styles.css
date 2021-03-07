@@ -1,4 +1,16 @@
 @charset "utf-8";
+/***********
+1. Fonts
+***********/
+
+@import url('https://fonts.googleapis.com/css?family=Alex+Brush|Great+Vibes|PT+Sans+Narrow:400,700');
+@font-face
+{
+	font-family: 'Edward';
+	src: url(../font/edwardian_script_itc.ttf) format('truetype'),
+	url(../font/edwardian_script_itc.otf) format('opentype');
+}
+
 @font-face {
     font-family: 'titan';
     src: url("/font/Titan.otf");
@@ -41,17 +53,6 @@
 
 ******************************/
 
-/***********
-1. Fonts
-***********/
-
-@import url('https://fonts.googleapis.com/css?family=Alex+Brush|Great+Vibes|PT+Sans+Narrow:400,700');
-@font-face
-{
-	font-family: 'Edward';
-	src: url(../font/edwardian_script_itc.ttf) format('truetype'),
-	url(../font/edwardian_script_itc.otf) format('opentype');
-}
 
 /*********************************
 2. Body and some general stuff
