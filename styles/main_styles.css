@@ -1692,7 +1692,7 @@ section {
 Text
 ************/
 #mision_text_container {
-  padding: 15% 5% 35% 5%;
+  padding: 10% 5% 35% 5%;
 }
 
 #mision_title {
@@ -1701,9 +1701,10 @@ Text
   font-size: 3rem;
 }
 
-#mision_text {
-  font-family: "sans serif";
-  font-size: 4rem;
+#mision_text_style {
+  font-family: sans-serif;
+  font-size: 1.2rem;
+  color: rgb(228, 228, 228);
 }
 
 @include media-breakpoint-up(sm) {
@@ -1711,7 +1712,7 @@ Text
     font-size: 1.2rem;
   }
 
-  #mision_text {
+  #mision_text_style {
     font-size: 1.2rem;
   }
 
@@ -1727,7 +1728,7 @@ Text
     font-size: 1.4rem;
   }
 
-  #mision_text {
+  #mision_text_style {
     font-size: 1.4rem;
   }
 }
@@ -1737,7 +1738,7 @@ Text
     font-size: 1.6rem;
   }
 
-  #mision_text {
+  #mision_text_style {
     font-size: 1.6rem;
   }
   
@@ -1751,7 +1752,7 @@ Text
 
 .vision {
   background: linear-gradient(-45deg, rgba(41, 1, 1, 0.6), rgba(22, 1, 1, 0.6));
-  height: 100vh;
+  height: 110vh;
   min-width: auto;
   position: relative;
   top: 0;
