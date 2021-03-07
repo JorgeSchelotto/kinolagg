@@ -700,7 +700,7 @@ section {
   margin-top: 6px;
 }
 #introTitle {
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 .intro_title h2 {
   font-family: "bestari";
@@ -732,6 +732,7 @@ section {
   height: 100%;
 }
 .video_section_title {
+	font-family: 'bestari';
   font-size: 48px;
   color: #ffffff;
   line-height: 1.2;
@@ -1045,7 +1046,8 @@ section {
   font-weight: normal;
 }
 .res_title {
-  font-size: 48px;
+	font-family: 'bestari';
+  font-size: 2rem;
   color: #ffffff;
   font-weight: 400;
   line-height: 0.75;
