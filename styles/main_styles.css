@@ -13,12 +13,12 @@
 
 @font-face {
     font-family: 'titan';
-    src: url("/font/Titan.otf");
+    src: url(../font/Titan.otf);
 }
 
 @font-face {
     font-family: 'bestari';
-    src: url("/font/Bestari\ Regular\ Trial.otf");
+    src: url(../font/Bestari\ Regular\ Trial.otf);
 }
 
 
