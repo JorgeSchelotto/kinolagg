@@ -1695,18 +1695,18 @@ font-family: 'bestari';
 Text
 ************/
 #mision_text_container {
-  padding: 10% 5% 35% 5%;
+  padding: 20% 5% 35% 5%;
 }
 
 #mision_title {
   color: white;
   font-family: "bestari";
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 #mision_text_style {
   font-family: sans-serif;
-  font-size: 1.2rem;
+  font-size: 1rem;
   color: rgb(228, 228, 228);
 }
 
