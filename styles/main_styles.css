@@ -21,6 +21,9 @@
     src: url(../font/Bestari\ Regular\ Trial.otf);
 }
 
+html {
+	scroll-behavior: smooth;
+}
 
 #logo_Name
 {
